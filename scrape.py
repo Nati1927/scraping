@@ -7,7 +7,7 @@ import time
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 bot_token = '6050967264:AAGwCgmE-FIwwd4QZBRlOmnpXMrYUqpXsAY'
-chat_id = '6721816560'
+chat_id = 6721816560
 
 response = requests.get('https://helloomarket.com/')
 soup = BeautifulSoup(response.text, 'html.parser')
